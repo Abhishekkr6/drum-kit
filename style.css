@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #212121;
+    color: #dadada;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+   text-align: center;
+}
+#title{
+    font-size: 5rem;
+    text-shadow: 3px 0 #daa104;
+}
+footer{
+    font-size: 1rem;
+    position: relative;
+    bottom: -100px;
+}
+.w {
+    background-image: url("tom1.png");
+  }
+  
+  .a {
+    background-image: url("tom2.png");
+  }
+  
+  .s {
+    background-image: url("tom3.png");
+  }
+  
+  .d {
+    background-image: url("tom4.png");
+  }
+  
+  .j {
+    background-image: url("snare.png");
+  }
+  
+  .k {
+    background-image: url("crash.png");
+  }
+  
+  .l {
+    background-image: url("kick.png");
+  }
+  .drum-set{
+    margin: 7% auto;
+  }
+  .pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+  
+  .red {
+    color: red;
+  }
+  .drum {
+    outline: none;
+    border: 10px solid #3d3d3d;
+    font-size: 5rem;
+    line-height: 2;
+    font-weight: 900;
+    color: #da7d04;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+  }
